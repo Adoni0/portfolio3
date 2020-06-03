@@ -1,30 +1,23 @@
 
-$(window).load(function(){
+// $(window).load(function(){
 
-$('#page-loader').delay(300).fadeOut(400, function(){
+// $('#page-loader').delay(300).fadeOut(400, function(){
 
-});
+// });
 
-$('#loader-name').addClass('loader-left');
-$('#loader-job').addClass('loader-right');
-$('#loader-animation').addClass('loader-hide');
+// $('#loader-name').addClass('loader-left');
+// $('#loader-job').addClass('loader-right');
+// $('#loader-animation').addClass('loader-hide');
 
-});
+// });
 
-// $('.resume-link').on('click', function(){
-//     $('.resume-body').show();
-//     $('.home-body').hide();
-//     $('.contact-body').hide();
-//     $('.portfolio-body').hide();
-//     $('.skills-body').hide();
-// })
 
 $('home-link').on('click', function(){
-    $('.resume-body').hide();
-    $('.home-body').show();
-    $('.contact-body').hide();
-    $('.portfolio-body').hide();
-    $('.skills-body').hide();
+    $('.resume-body').css("display", "none");
+    $('.home-body').css("display", "block");
+    $('.contact-body').css("display", "none");
+    $('.portfolio-body').css("display", "none");
+    $('.skills-body').css("display", "none");
 })
 
 $('skills-link').on('click', function(){

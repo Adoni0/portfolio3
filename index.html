@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Adam Soudani - Web Designer and Back-end Developer</title>
-    <script type='text/javascript' src='js/main.js'></script>
 
     <!-- Favicons
 ================================================== -->
@@ -46,11 +45,11 @@
             <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-left">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#page-home">Home</a></li>
+                        <li class="uk-active home-link"><a href="#">Home</a></li>
                         <!-- <li class='resume-link'><a href="#page-resume">Resume</a></li> -->
-                        <li class='skills-link'><a href="#page-skills">Skills</a></li>
-                        <li class='portfolio-link'><a href="#page-portfolio">Portfolio</a></li>
-                        <li class='contact-link'><a href="#page-contact">Contact</a></li>
+                        <li class='skills-link'><a href="#">Skills</a></li>
+                        <li class='portfolio-link'><a href="#">Portfolio</a></li>
+                        <li class='contact-link'><a href="#">Contact</a></li>
                         <li>
                             <a href="#">Resume</a>
                             <div class="uk-navbar-dropdown">
@@ -68,7 +67,7 @@
 
 
 
-    <div class="home-body" id="section-home">
+    <div class="home-body section-vcardbody" id="section-home">
         <!-- Profile pic-->
         <div class="vcard-profile-pic">
             <img src="img/IMG_2904 copy.jpg" id="profile1" class="profileActive" alt="" />
@@ -113,15 +112,61 @@
     <!-- SECTION: homeCard Body  -->
 
     <div class=skills-body>
+        <div class='front-end'>
+            <h2>Front-End Langauges</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+
+        <div class='back-end'>
+            <h2>Back-End technologies</h2>
+            <ul>
+                <li>Node JS</li>
+                <li>React JS</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+
+            </ul>
+        </div>
 
     </div>
 
+<!-- Contact Form ===================================================================== -->
+<div class='contact-form'>
 
+<!-- Contact infos -->                 
+<div class="contact-infos">
+    <h4 class="contact-subtitle-1"><span uk-icon="home"></span>
+        Address</h4>
+    <p>145 La Crescenta Drive, Camarillo - CA</p>
+    <h4 class="contact-subtitle-1"><span uk-icon="phone"></span>
+        Phone</h4>
+    <p>805-377-2125</p>
+    <h4 class="contact-subtitle-1"><span uk-icon="laptop"></span>
+        Email</h4>
+    <p>asoudani@icloud.com</p>
+</div>
+<!-- /Contact infos --> 
+
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Contact Me</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+    </div>
+    <a href="mailto:asoudani@icloud.com">Send Me an Email!</a>
+    
+</div>
+  <!-- End of contact form ========================================================================= -->
 
 
     <!-- UIkit JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+    <script type='text/javascript' src='js/main.js'></script>
 </body>
 
 </html>
