@@ -43,3 +43,24 @@ $('portfolio-link').on('click', function(){
     $('.portfolio-body').show();
     $('.skills-body').hide();
 })
+
+
+$('#travel').on('click', function(){
+    window.location = 'https://blue-project-2.herokuapp.com/';
+    
+});
+
+$('#friend').on('click', function(){
+    window.location = 'https://calm-island-98205.herokuapp.com/';
+    
+});
+
+$('#burger').on('click', function(){
+    window.location = 'https://nameless-sea-77335.herokuapp.com/';
+    
+});
+
+$('#group').on('click', function(){
+    window.location = 'https://kittm.github.io/project-1/';
+    
+});
