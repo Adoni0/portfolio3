@@ -11,10 +11,42 @@ $('#loader-animation').addClass('loader-hide');
 
 });
 
-$('.resume-link').on('click', function(){
-    $('.resume-link').show();
-    $('.home-link').hide();
-    $('.contact-link').hide();
-    $('.portfolio-link').hide();
-    $('.skills-link').hide();
+// $('.resume-link').on('click', function(){
+//     $('.resume-body').show();
+//     $('.home-body').hide();
+//     $('.contact-body').hide();
+//     $('.portfolio-body').hide();
+//     $('.skills-body').hide();
+// })
+
+$('home-link').on('click', function(){
+    $('.resume-body').hide();
+    $('.home-body').show();
+    $('.contact-body').hide();
+    $('.portfolio-body').hide();
+    $('.skills-body').hide();
+})
+
+$('skills-link').on('click', function(){
+    $('.resume-body').hide();
+    $('.home-body').hide();
+    $('.contact-body').hide();
+    $('.portfolio-body').hide();
+    $('.skills-body').show();
+})
+
+$('contact-link').on('click', function(){
+    $('.resume-body').hide();
+    $('.home-body').hide();
+    $('.contact-body').show();
+    $('.portfolio-body').hide();
+    $('.skills-body').hide();
+})
+
+$('portfolio-link').on('click', function(){
+    $('.resume-body').hide();
+    $('.home-body').hide();
+    $('.contact-body').hide();
+    $('.portfolio-body').show();
+    $('.skills-body').hide();
 })

@@ -163,7 +163,7 @@
       border-radius: 25px;
   }
 
-  .card-body{
+  .home-body{
       border-style: groove;
       height: 400px;
       width: 500px;
@@ -178,3 +178,84 @@
     background-image: url('https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background: cover;
   } */
+
+  /* Home ============================================================================================== */
+
+  .section-home {
+    z-index: 88;
+    opacity: 1;
+    overflow-y: auto;
+  }
+  .vcard-profile-pic {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .vcard-profile-pic img {
+    width: 100%;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: 6px solid #ddd;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .profileActive {
+    opacity: 1!important;
+  }
+  .vcard-profile-description {
+    text-align: center;
+  }
+  .profile-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+    color: #021533;
+  }
+  .profile-subtitle {
+    text-align: center;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .vcard-profile-description-text {
+    padding: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+  }
+  .vcard-profile-description-text p {
+    font-size: 13px;
+  }
+  .hr1 {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: url('../img/hr1.png') no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .vcard-profile-description-ft-item {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    background: url('../img/bg-btn.png') no-repeat center center #08aeac;
+  }
+  .vcard-profile-description-ft-item p {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 12px;
+  }
