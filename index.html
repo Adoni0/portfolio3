@@ -37,33 +37,34 @@
     <!-- /End of Page loader
       ========================================================= -->
 
-    <div class="uk-position-relative">
-        <img class="uk-animation-kenburns mountains"
-            src="https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="background-image">
-        <div class="uk-position-top">
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-left">
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active home-link"><a href="#">Home</a></li>
-                        <!-- <li class='resume-link'><a href="#page-resume">Resume</a></li> -->
-                        <li class='skills-link'><a href="#">Skills</a></li>
-                        <li class='portfolio-link'><a href="#">Portfolio</a></li>
-                        <li class='contact-link'><a href="#">Contact</a></li>
-                        <li>
-                            <a href="#">Resume</a>
-                            <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="img/career-services-reume.pdf">View My Resume</a></li>
 
-                    </ul>
-                </div>
-                </li>
-                </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand home-link" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link skills-link" href="#">Skills<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link portfolio-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link contact-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resume
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="img/career-services-reume.pdf">View My Resume</a>
+              </div>
+            </li>
+          </ul>
         </div>
-        </nav>
-    </div>
-    </div>
+      </nav>
 
 
 
@@ -216,7 +217,9 @@
 
 
     <!-- UIkit JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
     <script type='text/javascript' src='js/main.js'></script>
