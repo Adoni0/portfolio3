@@ -12,7 +12,7 @@
 // });
 
 
-$('home-link').on('click', function(){
+$('.home-link').on('click', function(){
     $('.resume-body').css("display", "none");
     $('.home-body').css("display", "block");
     $('.contact-body').css("display", "none");
@@ -20,7 +20,7 @@ $('home-link').on('click', function(){
     $('.skills-body').css("display", "none");
 })
 
-$('skills-link').on('click', function(){
+$('.skills-link').on('click', function(){
     $('.resume-body').hide();
     $('.home-body').hide();
     $('.contact-body').hide();
@@ -28,7 +28,7 @@ $('skills-link').on('click', function(){
     $('.skills-body').show();
 })
 
-$('contact-link').on('click', function(){
+$('.contact-link').on('click', function(){
     $('.resume-body').hide();
     $('.home-body').hide();
     $('.contact-body').show();
@@ -36,7 +36,7 @@ $('contact-link').on('click', function(){
     $('.skills-body').hide();
 })
 
-$('portfolio-link').on('click', function(){
+$('.portfolio-link').on('click', function(){
     $('.resume-body').hide();
     $('.home-body').hide();
     $('.contact-body').hide();

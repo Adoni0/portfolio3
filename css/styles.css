@@ -1,8 +1,22 @@
-body{
-  background-image: url("https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  
+html { 
+  background: url("https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .8;
 }
 
+/* body{
+  background-image: url("https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+} */
+
+.navbar{
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+
+}
 
 
 /* page loader ======================================================================== */
@@ -160,23 +174,6 @@ body{
 
   /* end of page loader ======================================================================= */
 
-  .mountains{
-      opacity: .4;
-  }
-
-  .profile-pic{
-      height: 50px;
-      width: 50px;
-      border-radius: 25px;
-  }
-
-  
-
-  /* body{
-    background-image: url('https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background: cover;
-  } */
-
   /* Home ============================================================================================== */
 
   .home-body{
@@ -184,11 +181,11 @@ body{
     height: 540px;
     width: 500px;
     position: relative;
-    top: -600px;
-    left: 300px;
+    /* top: -600px;
+    left: 300px; */
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-    display: none;
+    /* display: none; */
     }
 
   .section-home {
@@ -313,8 +310,8 @@ body{
     height: 400px;
     width: 500px;
     position: relative;
-    top: -600px;
-    left: 300px;
+    /* top: -600px;
+    left: 300px; */
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     display: none;
@@ -332,8 +329,8 @@ body{
     height: 500px;
     width: 750px;
     position: relative;
-    top: -600px;
-    left: 200px;
+    /* top: -600px;
+    left: 200px; */
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     display: none;
