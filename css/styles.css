@@ -181,17 +181,17 @@ html {
     height: 540px;
     width: 500px;
     position: relative;
-    /* top: -600px;
-    left: 300px; */
+    top: 60px;
+    left: 300px;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     /* display: none; */
     }
 
   .section-home {
-    z-index: 88;
-    opacity: 1;
-    overflow-y: auto;
+    /* z-index: 88; */
+    /* opacity: 1; */
+    /* overflow-y: auto; */
   }
   .vcard-profile-pic {
     width: 200px;
