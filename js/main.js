@@ -53,3 +53,4 @@ $("#burger").on("click", function () {
 $("#group").on("click", function () {
   window.location = "https://kittm.github.io/project-1/";
 });
+

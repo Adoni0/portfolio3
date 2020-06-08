@@ -7,11 +7,6 @@ html {
   opacity: .8;
 }
 
-/* body{
-  background-image: url("https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  
-} */
-
 .navbar{
   background-color: #abe9cd;
   background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
@@ -181,19 +176,18 @@ html {
     height: 540px;
     width: 500px;
     position: relative;
-    /* top: 60px;
-    left: 300px; */
+    top: 50px;
     margin: auto;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     /* display: none; */
     }
 
-  .section-home {
-    /* z-index: 88; */
-    /* opacity: 1; */
-    /* overflow-y: auto; */
-  }
+  /* .section-home {
+    z-index: 88;
+    opacity: 1;
+    overflow-y: auto;
+  } */
   .vcard-profile-pic {
     width: 200px;
     height: 200px;
@@ -299,9 +293,24 @@ html {
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
     height: 550px;
+    position: relative;
+    top: 50px;
+    overflow: scroll;
     width: 500px;
     margin: auto;
+    border-style: outset;
     display: none;
+  }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
 
 
@@ -312,11 +321,11 @@ html {
     height: 400px;
     width: 500px;
     position: relative;
-    /* top: -600px;
-    left: 300px; */
+    top: 50px;
     margin: auto;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    /* overflow: scroll; */
     display: none;
   }
 
@@ -332,8 +341,7 @@ html {
     height: 500px;
     width: 750px;
     position: relative;
-    /* top: -600px;
-    left: 200px; */
+    top: 50px;
     margin: auto;
     background-color: #b8c6db;
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
