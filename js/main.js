@@ -54,3 +54,10 @@ $("#group").on("click", function () {
   window.location = "https://kittm.github.io/project-1/";
 });
 
+$("#store").on("click", function () {
+    window.location = "https://github.com/Adoni0/node-mysql";
+  });
+
+  $("#train").on("click", function () {
+    window.location = "https://adoni0.github.io/Train-Scheduler/";
+  });
