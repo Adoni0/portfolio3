@@ -22,11 +22,13 @@ $(document).ready(function () {
     $(".home-body").hide();
     $(".contact-form").hide();
     $(".portfolio-container").hide();
+    $(".skills-body").addClass("uk-animation-slide-right");
     $(".skills-body").show();
   });
 
   $(".contact-link").on("click", function () {
     $(".home-body").hide();
+    $(".contact-form").addClass("uk-animation-slide-left");
     $(".contact-form").show();
     $(".portfolio-container").hide();
     $(".skills-body").hide();
@@ -35,6 +37,7 @@ $(document).ready(function () {
   $(".portfolio-link").on("click", function () {
     $(".home-body").hide();
     $(".contact-form").hide();
+    $(".portfolio-container").addClass("uk-animation-slide-top");
     $(".portfolio-container").show();
     $(".skills-body").hide();
   });
