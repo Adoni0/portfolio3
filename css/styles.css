@@ -1,10 +1,11 @@
 html { 
-  background: url("https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed; 
+  /* background: url("https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;  */
+  background: url('../img/p1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: .8;
+  /* opacity: .8; */
 }
 
 .navbar{
@@ -316,7 +317,7 @@ html {
   .skills-head{
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    border-bottom: dashed darkturquoise;
   }
 
   .progress{
@@ -324,11 +325,77 @@ html {
   }
 
   .front-end{
-    margin-top: 10px;
+    padding-top: 10px;
   }
 
   .back-end{
-    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  #span-prob{
+    margin-left: 130px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-adapt{
+    margin-left: 100px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-collab{
+    margin-left: 120px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-organ{
+    margin-left: 100px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-html{
+    margin-left: 80px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-css{
+    margin-left: 80px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-js{
+    margin-left: 100px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-node{
+    margin-left: 100px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-react{
+    margin-left: 100px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-sql{
+    margin-left: 90px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  #span-mongo{
+    margin-left: 100px;
+    font-weight: bold;
+    color: #333333;
   }
 
 
