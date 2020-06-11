@@ -1,16 +1,5 @@
-// $(window).load(function(){
-
-// $('#page-loader').delay(300).fadeOut(400, function(){
-
-// });
-
-// $('#loader-name').addClass('loader-left');
-// $('#loader-job').addClass('loader-right');
-// $('#loader-animation').addClass('loader-hide');
-
-// });
-
 $(document).ready(function () {
+
   $(".home-link").on("click", function () {
     $(".home-body").css("display", "block");
     $(".contact-form").css("display", "none");
