@@ -44,7 +44,7 @@ $(document).ready(function () {
   });
 
   $("#group").on("click", function () {
-    window.location = "https://kittm.github.io/project-1/";
+    window.location = "https://adoni0.github.io/project1/";
   });
 
   $("#store").on("click", function () {
