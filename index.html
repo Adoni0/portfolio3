@@ -1,277 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Adam Soudani - Web Designer and Back-end Developer</title>
+<html>
+	<head>
+		<title>Adam Soudani Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <!-- Favicons
-================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <!-- / Favicons
-================================================== -->
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-    <link type='text/css' href="css/home.css" rel="stylesheet">
-    <link type='text/css' href="css/styles.css" rel="stylesheet">
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://www.linkedin.com/in/adam-soudani-715aa2108/" target="_blank" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+						<a href="images/resume.pdf" target="_blank" class="icon brands fa-paperclip"><span>Resume</span></a>
+					</nav>
 
-</head>
+				<!-- Main -->
+					<div id="main">
 
-<body>
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Adam Soudani</h1>
+									<p>Full Stack Developer</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/adam.jpeg" alt="" />
+								</a>
+							</article>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand home-link" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link skills-link" href="#">Skills<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link portfolio-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link contact-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Resume
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="img/career-services-reume.pdf">View My Resume</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									These are a group of projects that best demonstrate my capabilities. <br/>
+									Languages: HTML, CSS, Javascript<br/> 
+									Tools/Frameworks: ReactJS, NodeJS, MySQL, MongoDB, JQuery, Bootstrap, HandlebarsJS, Express
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://drop-project-3.herokuapp.com/" target="_blank" class="image fit"><img src="images/roadtrip.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://blue-project-2.herokuapp.com/" target="_blank" class="image fit"><img src="images/travel.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://adoni0.github.io/project1/" target="_blank" class="image fit"><img src="https://media.giphy.com/media/2UtegbQgkGyQOjMSko/giphy.gif" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://google-books-app21.herokuapp.com/" target="_blank" class="image fit"><img src="images/books.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://adoni0.github.io/clicky-app/" target="_blank" class="image fit"><img src="images/click.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://nameless-sea-77335.herokuapp.com/" target="_blank" class="image fit"><img src="images/burger.jpg" alt=""></a>
+										</div>
+										
+									</div>
+								</section>
+							</article>
 
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
 
+					</div>
 
-    <div class="home-body section-vcardbody uk-animation-scale-down" id="section-home">
-        <!-- Profile pic-->
-        <div class="vcard-profile-pic">
-            <img src="img/IMG_2904 copy.jpg" id="profile1" class="profileActive" alt="" />
-        </div>
-        <div class="vcard-profile-description">
-            <!-- Profile title -->
-            <h1 class="profile-title">Hi, i'm <span class="color1">Adam Soudani!</span></h1>
-            <h2 class="profile-subtitle">Web Designer & Developer</h2>
-            <!-- /Profile Title -->
-            <!-- Description Text -->
-            <hr class="hr1">
-            <div class="vcard-profile-description-text">
-                <p>UCLA Web Development Bootcamp Student seeking a position as a Front-end or Back-end developer. This
-                    site displays my conatct info, resume, as well as projects I am most proud of.</p>
-            </div>
-            <!--/ Description Text -->
-            <!-- Description feature -->
-            <div class="vcard-profile-description-feature">
-                
-                <div class="vcard-profile-description-ft-item">
-                    <p>email: asoudani@icloud.com / phone 805-377-2125</p>
-                </div>
-            
-            </div>
-            <!-- /Description feature -->
-        </div>
-        <!-- /Description -->
-        <!-- Footer -->
-        <div class="vcard-footer">
-            <!-- Social Icons -->
-            <div class="footer-social-icons">
+	
 
-                <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
-                <a href="https://github.com/Adoni0" class="uk-icon-button  uk-margin-small-right" uk-icon="github"></a>
-                <a href="https://www.linkedin.com/in/adam-soudani-715aa2108/"
-                    class="uk-icon-button  uk-margin-small-right" uk-icon="linkedin"></a>
-                <a href="https://www.youtube.com/" class="uk-icon-button  uk-margin-small-right" uk-icon="youtube"></a>
-            </div>
-            <!-- /Social Icons -->
-        </div>
-    </div>
-    <!-- SECTION: homeCard Body  -->
+			</div>
 
-    <!-- Skills body ================================================================= -->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <div class=skills-body>
-
-        <div class='professional'>
-            <h2 class='skills-head'><span uk-icon="users"></span>
-                Professional Skills</h2>
-
-            <div class="progress" style="height:40px">
-                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Problem Solver - <span id='span-prob'>80%</span></div>
-              </div>
-              <div class="progress" style="height:40px">
-                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Adaptable - <span id='span-adapt'>90%</span></div>
-              </div>
-              <div class="progress" style="height:40px">
-                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Collaborative - <span id='span-collab'>95%</span></div>
-              </div>
-              <div class="progress" style="height:40px">
-                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Organized - <span id='span-organ'>70%</span></div>
-              </div>
-        </div>
-
-
-
-        <div class='front-end'>
-            <h2 class='skills-head'><span uk-icon="desktop"></span>
-                Front-End Langauges</h2>
-        
-                <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML - <span id='span-html'>90%</span></div>
-                  </div>
-                
-                <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">CSS - <span id='span-css'>85%</span></div>
-                  </div>
-                  <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Javascript - <span id='span-js'>75%</span></div>
-                  </div>
-            
-        </div>
-
-        <div class='back-end'>
-            <h2 class='skills-head'><span uk-icon="server"></span>
-                Back-End Technologies</h2>
-           
-                <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Node JS - <span id='span-node'>65%</span></div>
-                  </div>
-                  <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">React JS - <span id='span-react'>30%</span></div>
-                  </div>
-                  <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">MySQL - <span id='span-sql'>60%</span></div>
-                  </div>
-                  <div class="progress" style="height:40px">
-                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">MongoDB - <span id='span-mongo'>40%</span></div>
-                  </div>
-
-        </div>
-
-    </div>
-    <!-- End Of Skills body =========================================================== -->
-
-<!-- Contact Form ===================================================================== -->
-<div class='contact-form'>
-
-<!-- Contact infos -->                 
-<div class="contact-infos">
-    <h4 class="contact-subtitle-1"><span uk-icon="home"></span>
-        Address</h4>
-    <p>145 La Crescenta Drive, Camarillo - CA</p>
-    <h4 class="contact-subtitle-1"><span uk-icon="phone"></span>
-        Phone</h4>
-    <p>805-377-2125</p>
-    <h4 class="contact-subtitle-1"><span uk-icon="laptop"></span>
-        Email</h4>
-    <p>asoudani@icloud.com</p>
-</div>
-
-<!-- /Contact infos --> 
-
-<form>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Contact Me</label>
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-    </div>
-    <a href="mailto:asoudani@icloud.com">Send Me an Email!</a>
-    
-</div>
-  <!-- End of contact form ========================================================================= -->
-
-
-  <!-- SECTION: PORTFOLIO-->
-
-
-
-<div class='portfolio-container'>
-    <h2 class='portfolio-header'><span uk-icon="album"></span>
-        Portfolio</h2>
-
-    <div class='row' id='row-id'>
-        <div class='col-sm-4'>
-
-         <div class="card travel-proj" style="width: 18rem;">
-            <img src="https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" id='travel' class="card-img-top img-responsive">
-            <div class="card-body">
-              <p class="card-text">Travelligence</p>
-            </div>
-          </div>
-        </div>  
-    <div class='col-sm-8'>
-      <div class="card burger-proj" style="width: 18rem;">
-        <img src="https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" id='burger' class="card-img-top img-responsive">
-        <div class="card-body">
-          <p class="card-text">Sequelized Burger</p>
-        </div>
-      </div>
-    </div>
-    </div>
-
-
-    <div class='row' id='row-id2'>
-        <div class='col-sm-4'>
-          <div class="card friend-proj" style="width: 18rem;">
-            <img src="https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" id='friend' class="card-img-top img-responsive">
-            <div class="card-body">
-              <p class="card-text">Friend Finder</p>
-            </div>
-          </div>
-        </div>
-        <div class='col-sm-4'>
-          <div class="card group-proj" style="width: 18rem;">
-            <img src="https://media.giphy.com/media/anxJh9Vufpgvm/giphy.gif" id='group' class="card-img-top img-responsive" alt="group">
-            <div class="card-body">
-              <p class="card-text">Kanye-ify Photos</p>
-            </div>
-          </div>
-        </div>
-        
-    </div>
-
-
-    <div class='row' id='row-id3'>
-        <div class='col-sm-4'>
-          <div class="card store-proj" style="width: 18rem;">
-            <img src="https://images.pexels.com/photos/331990/pexels-photo-331990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" id='store' class="card-img-top img-responsive">
-            <div class="card-body">
-              <p class="card-text">Store Customer/Manager</p>
-            </div>
-          </div>
-        </div>
-        <div class='col-sm-4'>
-          <div class="card train-proj" style="width: 18rem;">
-            <img src="https://images.pexels.com/photos/258455/pexels-photo-258455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" id='train' class="card-img-top img-responsive" alt="group">
-            <div class="card-body">
-              <p class="card-text">Train Scheduler</p>
-            </div>
-          </div>
-        </div>
-        
-    </div>
-
-
-<!-- /SECTION: PORTFOLIO  -->
-
-
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script type='text/javascript' src='js/main.js'></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
-    
-</body>
-
+	</body>
 </html>
