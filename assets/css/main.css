@@ -2112,9 +2112,12 @@ input, select, textarea {
 					}
 
 						#main > .panel.intro .pic {
-							height: 25em;
+							height: 35em;
 							width: 100%;
+						
 						}
+
+
 
 						#main > .panel.intro header {
 							padding: 4em;
@@ -2126,7 +2129,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
-						height: 20em;
+						height: 40em;
 					}
 
 					#main > .panel.intro header {
@@ -2140,12 +2143,3 @@ input, select, textarea {
 
 				}
 
-
-		@media screen and (max-width: 736px) {
-
-			#footer .copyright li {
-				padding-left: 0.5em;
-				margin-left: 0.5em;
-			}
-
-		}
