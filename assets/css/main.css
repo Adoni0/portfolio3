@@ -2272,8 +2272,10 @@ body.is-preload #wrapper {
 
 /* Style the back side */
 .flip-box-back {
-  background-color: #0abcf9;
-  background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+  /* background-color: #0abcf9;
+  background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
   color: white;
   font-size: .7em;
   transform: rotateY(180deg);
